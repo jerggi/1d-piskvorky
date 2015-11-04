@@ -8,4 +8,12 @@ Udržuje stav hry a slouží jako interface pro ovládání.
 
 ### Player - [player.rb](player.rb)
 
-Provadi tah na zaklade predane hry (Game).
+Provadí tah na základě předané hry (Game).
+
+### ComputerPlayer - [computer_player.rb](computer_player.rb)
+
+Dědí z Player a obsahuje logiku pro odehrání tahu.
+
+### HumanPlayer - [human_player.rb](human_player.rb)
+
+Dědí z Player a obsahuje kód pro získání tahu od hráče.
